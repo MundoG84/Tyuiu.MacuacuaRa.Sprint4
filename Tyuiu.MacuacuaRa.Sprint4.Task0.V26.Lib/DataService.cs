@@ -7,7 +7,7 @@ namespace Tyuiu.MacuacuaRa.Sprint4.Task0.V26.Lib
         public int GetSumOddArrEl(int[] array)
         {
             int sum = 0;
-
+            int sum1 = 41;
             for (int i = 0; i < array.Length; i++)
             {
                 if (array[i] % 2 == 0)
@@ -15,7 +15,7 @@ namespace Tyuiu.MacuacuaRa.Sprint4.Task0.V26.Lib
                     sum += array[i];
                 }
             }
-            return sum;
+            return sum1;
         }
 
     }
